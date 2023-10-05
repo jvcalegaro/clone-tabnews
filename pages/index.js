@@ -1,10 +1,19 @@
 function Home() {
-    const frase = [<h1>Pense bem...</h1>,
-    <h3>"O homem tem duas vidas: a segunda começa quando ele percebe que tem apenas uma." - Confúcio</h3>,
-    <h3>"A vida é o que acontece enquanto você está ocupado fazendo outros planos." - John Lennon</h3>,
-    <h3>"O ontem é história, o amanhã é um mistério, mas o hoje é uma dádiva. É por isso que se chama presente." - Kung Fu Panda</h3>,
-    <h3>Se não houver amanhã, você foi feliz hoje?</h3>]
-    return frase
+    return (
+        <div style={{ backgroundColor: 'black' }}>
+            <iframe
+                id="meuIframe"
+                width="853"
+                height="480"
+                src="https://www.youtube.com/embed/u9EgZsBWDF0"
+                title="Sorria"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                style={{ backgroundColor: 'black' }}
+            ></iframe>
+        </div>
+    );
 }
 
 export default Home;
